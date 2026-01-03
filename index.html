@@ -4,7 +4,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fonts by Audrius Skersys</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <style>
+      .carousel-page {
+        display: none;
+      }
+
+      /* Show selected page */
+      #page1:checked ~ .page1,
+      #page2:checked ~ .page2,
+      #page3:checked ~ .page3,
+      #page4:checked ~ .page4,
+      #page5:checked ~ .page5,
+      #page6:checked ~ .page6,
+      #page7:checked ~ .page7,
+      #page8:checked ~ .page8,
+      #page9:checked ~ .page9 {
+        display: block;
+      }
+
+  
+      /* Active pagination styling */
+      #page1:checked ~ nav label[for="page1"],
+      #page2:checked ~ nav label[for="page2"],
+      #page3:checked ~ nav label[for="page3"],
+      #page4:checked ~ nav label[for="page4"],
+      #page5:checked ~ nav label[for="page5"],
+      #page6:checked ~ nav label[for="page6"],
+      #page7:checked ~ nav label[for="page7"],
+      #page8:checked ~ nav label[for="page8"],
+      #page9:checked ~ nav label[for="page9"] {
+        background: hsl(217, 71%, 53%);
+        color: white;
+      }
+</style>
+
   </head>
   <body>
     <section class="hero is-light">
@@ -13,90 +47,219 @@
             Fonts by <a href="https://www.skersys.eu/" target="_blank" class="has-text-link">Audrius Skersys</a>
           </p>
           <p class="subtitle has-text-grey">
-            Colection of free fabulous decorative fonts for your next design project.
+            Colection of fabulous decorative fonts for your next design project.
           </p>
         </div>
     </section>
+
     <section class="section">
+      <div class="container is-max-desktop">
+        <div class="card">
+          <div class="card-image">
+            <!-- Hidden radio controls -->
+            <input type="radio" name="pages" id="page1" checked hidden>
+            <input type="radio" name="pages" id="page2" hidden>
+            <input type="radio" name="pages" id="page3" hidden>
+            <input type="radio" name="pages" id="page4" hidden>
+            <input type="radio" name="pages" id="page5" hidden>
+            <input type="radio" name="pages" id="page6" hidden>
+            <input type="radio" name="pages" id="page7" hidden>
+            <input type="radio" name="pages" id="page8" hidden>
+            <input type="radio" name="pages" id="page9" hidden>
+
+            <!-- Pages -->
+            <div class="carousel-page page1">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/1.png" alt="Example 1 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+            <div class="carousel-page page2">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/2.png" alt="Example 2 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+            <div class="carousel-page page3">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/3.png" alt="Example 3 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+            <div class="carousel-page page4">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/4.png" alt="Example 4 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+            <div class="carousel-page page5">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/5.png" alt="Example 5 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+            <div class="carousel-page page6">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/6.png" alt="Example 6 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+            <div class="carousel-page page7">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/7.png" alt="Example 7 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+            <div class="carousel-page page8">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/8.png" alt="Example 8 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+            <div class="carousel-page page9">
+              <figure class="image is-3by2">
+                <img src="a-font-with-serifs-pro/9.png" alt="Example 9 of font A Font with Serifs Pro">
+              </figure>
+            </div>
+
+            <!-- Pagination -->
+            <nav class="pagination is-centered mt-4">
+              <ul class="pagination-list">
+                <li><label for="page1" class="pagination-link">1</label></li>
+                <li><label for="page2" class="pagination-link">2</label></li>
+                <li><label for="page3" class="pagination-link">3</label></li>
+                <li><label for="page4" class="pagination-link">4</label></li>
+                <li><label for="page5" class="pagination-link">5</label></li>
+                <li><label for="page6" class="pagination-link">6</label></li>
+                <li><label for="page7" class="pagination-link">7</label></li>
+                <li><label for="page8" class="pagination-link">8</label></li>
+                <li><label for="page9" class="pagination-link">9</label></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">A Font with Serifs Pro</p>
+                <p class="subtitle">Handcrafted Serif for Editorial and Modern Design</p>
+                <p><strong></strong>A Font with Serifs Pro delivers a distinct handwritten serif personality. First created with a blue pen and quietly embraced on book covers and editorial projects, this revised version maintains its authentic, textured appeal. The letterforms remain intentionally imperfect—lines shift, symmetry wavers, and visible irregularities serve as a reminder of its analog beginnings instead of digital uniformity. These details lend a vintage sensibility, yet A Font with Serifs Pro adapts effortlessly to contemporary design workflows.</p>
+                <p>Designed to support professional typography, the updated release brings expanded typographic function without losing its natural warmth. Carefully honed for legibility and visual texture, it offers a compelling alternative for creative direction where an expressive typographic voice is called for. Use it confidently for cover design, editorial spreads, branding, or any environment seeking type with genuine presence and character.</p>
+              </div>
+            </div>
+            <div class="content">
+              <p><a href="https://www.youworkforthem.com/font/T31937/a-font-with-serifs-pro?aff=3440" target="_blank">Test and buy on <b>YouWorkForThem</b></a></p>
+              <table class="table">
+                  <tr>
+                      <td>Format</td>
+                      <td>TTF</td>
+                  </tr>
+                  <tr>
+                      <td>OpenType features</td>
+                      <td>aalt, dlig, frac, hist, hlig, liga, locl, ordn, salt, ss01, ss02, ss03, subs, sups, kern</td>
+                  </tr>
+                  <tr>
+                      <td>License</td>
+                      <td>See info on sellers website</td>
+                  </tr>
+                  <tr>
+                      <td>Styles</td>
+                      <td>1 (Regular)</td>
+                  </tr>
+                  <tr>
+                      <td>Glyphs</td>
+                      <td>1057</td>
+                  </tr>
+                  <tr>
+                      <td>Supported languages</td>
+                      <td>140+</td>
+                  </tr>
+                  <tr>
+                    <td>Features</td>
+                    <td>
+                      <ul>
+                        <li>OpenType features for advanced typographic control</li>
+                        <li>Extensive multilingual support covering Latin, Cyrillic, and Greek scripts</li>
+                        <li>Ligatures and flourishes for nuanced compositions</li>
+                        <li>Distinct, hand-drawn character ideal for book covers and editorial use</li>
+                      </ul>
+                    </td>
+                  </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h1 class="title">Free Fonts</h1>
         <h2 class="content">
-          <p>All of these fonts listed on this page are available <strong>free</strong> for personal and commercial projects.</p>
+          <p>All of the fonts listed below are available <strong>free</strong> for personal and commercial projects.</p>
           <p>It is not mandatory to name the author, but it is recommended so that the author would be supported.</p>
           <p>If you would like to <strong>donate</strong> the author, you are welcome to do so via <strong><a href="https://www.paypal.com/donate/?hosted_button_id=JTK78T5JP595S" target="_blank">PayPal</a></strong>.</p> 
         </h2>
-    </section>
-    <section class="section">
       <div class="container is-max-desktop">
-        <div class="tile is-ancestor">
-          <div class="tile is-vertical">
-            <div class="tile">
-            <div class="tile is-parent is-6">
-                <article class="tile is-child">
-                    <div class="card">
-                        <div class="card-image">
-                          <figure class="image is-4by2">
-                            <img src="AFontwithSerifs.png" alt="Example of font A Font with Serifs">
-                          </figure>
-                        </div>
-                        <div class="card-content">
-                          <div class="media">
-                            <div class="media-content">
-                              <p class="title is-4">A Font with Serifs</p>
-                              <p class="is-6">Casual hand-drawn typeface that imitates ordinary serif fonts.</p>
-                            </div>
-                          </div>
-                          <div class="content">
-                            <p><a href="https://www.dafont.com/de/a-font-with-serifs.font">Test and download on <b>dafont.com</b></a></p>
-                            <table class="table">
-                                <tr>
-                                    <td>Format</td>
-                                    <td>TTF</td>
-                                </tr>
-                                <tr>
-                                    <td>License</td>
-                                    <td>Public domain</td>
-                                </tr>
-                                <tr>
-                                    <td>Styles</td>
-                                    <td>2 (Regular, Disordered)</td>
-                                </tr>
-                                <tr>
-                                    <td>Glyphs</td>
-                                    <td>576</td>
-                                </tr>
-                                <tr>
-                                    <td>Supported languages</td>
-                                    <td>101 <span class="is-size-7"></span></td>
-                                </tr>
-                            </table>
-                            
-                            <p class="is-size-7">Belarusian, Bosnian, Bulgarian, Chechen,
-                                Macedonian, Russian, Serbian, Greek, Afrikaans,
-                                Albanian, Asu, Basque, Bemba, Bena, Breton,
-                                Catalan, Chiga, Colognian, Cornish, Croatian,
-                                Czech, Danish, Dutch, Embu, English, Esperanto,
-                                Estonian, Faroese, Filipino, Finnish, French,
-                                Friulian, Galician, Ganda, German, Gusii, Hungarian,
-                                Inari Sami, Indonesian, Irish, Italian, Jola-Fonyi,
-                                Kabuverdianu, Kalaallisut, Kalenjin, Kamba, Kikuyu, Kinyarwanda,
-                                Latvian, Lithuanian, Lower Sorbian, Luo, Luxembourgish,
-                                Luyia, Machame, Makhuwa-Meetto, Makonde, Malagasy, Maltese,
-                                Manx, Meru, Morisyen, Northern Sami, North Ndebele,
-                                Norwegian Bokmål, Norwegian Nynorsk, Nyankole,
-                                Oromo, Polish, Portuguese, Quechua, Romansh,
-                                Rombo, Rundi, Rwa, Samburu, Sango, Sangu,
-                                Scottish Gaelic, Sena, Serbian, Shambala, Shona,
-                                Slovak, Soga, Somali, Spanish, Swahili, Swedish,
-                                Swiss German, Taita, Teso, Turkish, Upper Sorbian,
-                                Uzbek (Latin), Volapük, Vunjo, Walser, Welsh, Western Frisian, Zulu</p>
-                          </div>
-
-                        </div>
+          <div class="columns is-multiline">
+            <div class="column is-6">
+                  <div class="card">
+                      <div class="card-image">
+                        <figure class="image is-4by2">
+                          <img src="AFontwithSerifs.png" alt="Example of font A Font with Serifs">
+                        </figure>
                       </div>
-                </article>
+                      <div class="card-content">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4">A Font with Serifs</p>
+                            <p class="is-6">Casual hand-drawn typeface that imitates ordinary serif fonts.</p>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <p><a href="https://www.dafont.com/de/a-font-with-serifs.font" target="_blank">Test and download on <b>dafont.com</b></a></p>
+                          <table class="table">
+                              <tr>
+                                  <td>Format</td>
+                                  <td>TTF</td>
+                              </tr>
+                              <tr>
+                                <td>OpenType features</td>
+                                <td>—</td>
+                              </tr>
+                              <tr>
+                                  <td>License</td>
+                                  <td>Public domain</td>
+                              </tr>
+                              <tr>
+                                  <td>Styles</td>
+                                  <td>2 (Regular, Disordered)</td>
+                              </tr>
+                              <tr>
+                                  <td>Glyphs</td>
+                                  <td>576</td>
+                              </tr>
+                              <tr>
+                                  <td>Supported languages</td>
+                                  <td>101 <span class="is-size-7"></span></td>
+                              </tr>
+                          </table>
+                          
+                          <p class="is-size-7">Belarusian, Bosnian, Bulgarian, Chechen,
+                              Macedonian, Russian, Serbian, Greek, Afrikaans,
+                              Albanian, Asu, Basque, Bemba, Bena, Breton,
+                              Catalan, Chiga, Colognian, Cornish, Croatian,
+                              Czech, Danish, Dutch, Embu, English, Esperanto,
+                              Estonian, Faroese, Filipino, Finnish, French,
+                              Friulian, Galician, Ganda, German, Gusii, Hungarian,
+                              Inari Sami, Indonesian, Irish, Italian, Jola-Fonyi,
+                              Kabuverdianu, Kalaallisut, Kalenjin, Kamba, Kikuyu, Kinyarwanda,
+                              Latvian, Lithuanian, Lower Sorbian, Luo, Luxembourgish,
+                              Luyia, Machame, Makhuwa-Meetto, Makonde, Malagasy, Maltese,
+                              Manx, Meru, Morisyen, Northern Sami, North Ndebele,
+                              Norwegian Bokmål, Norwegian Nynorsk, Nyankole,
+                              Oromo, Polish, Portuguese, Quechua, Romansh,
+                              Rombo, Rundi, Rwa, Samburu, Sango, Sangu,
+                              Scottish Gaelic, Sena, Serbian, Shambala, Shona,
+                              Slovak, Soga, Somali, Spanish, Swahili, Swedish,
+                              Swiss German, Taita, Teso, Turkish, Upper Sorbian,
+                              Uzbek (Latin), Volapük, Vunjo, Walser, Welsh, Western Frisian, Zulu</p>
+                        </div>
+
+                      </div>
+                    </div>
             </div>
-            
-            <div class="tile is-parent is-6">
-              <article class="tile is-child">
+            <div class="column is-6">
                 <div class="card">
                     <div class="card-image">
                       <figure class="image is-4by2">
@@ -112,11 +275,15 @@
                       </div>
                   
                       <div class="content">
-                        <p><a href="https://www.dafont.com/de/sanserifing.font">Test and download on <b>dafont.com</b></a></p>
+                        <p><a href="https://www.dafont.com/de/sanserifing.font" target="_blank">Test and download on <b>dafont.com</b></a></p>
                         <table class="table">
                             <tr>
                                 <td>Format</td>
                                 <td>TTF</td>
+                            </tr>
+                            <tr>
+                              <td>OpenType features</td>
+                              <td>—</td>
                             </tr>
                             <tr>
                                 <td>License</td>
@@ -159,12 +326,9 @@
 
                     </div>
                   </div>
-              </article>
             </div>
-            </div>
-            <div class="tile">
-            <div class="tile is-parent is-6">
-                <article class="tile is-child">
+
+            <div class="column is-6">
                   <div class="card">
                       <div class="card-image">
                         <figure class="image is-4by2">
@@ -180,11 +344,15 @@
                         </div>
                     
                         <div class="content">
-                          <p><a href="https://www.dafont.com/de/ikusuteito.font">Test and download on <b>dafont.com</b></a></p>
+                          <p><a href="https://www.dafont.com/de/ikusuteito.font" target="_blank">Test and download on <b>dafont.com</b></a></p>
                           <table class="table">
                             <tr>
                                 <td>Format</td>
                                 <td>TTF</td>
+                            </tr>
+                            <tr>
+                              <td>OpenType features</td>
+                              <td>—</td>
                             </tr>
                             <tr>
                                 <td>License</td>
@@ -209,12 +377,10 @@
   
                       </div>
                     </div>
-                </article>
               </div>
 
 
-              <div class="tile is-parent is-6">
-                <article class="tile is-child">
+              <div class="column is-6">
                   <div class="card">
                       <div class="card-image">
                         <figure class="image is-4by2">
@@ -230,11 +396,15 @@
                         </div>
                     
                         <div class="content">
-                          <p><a href="https://www.dafont.com/de/gotika.font">Test and download on <b>dafont.com</b></a></p>
+                          <p><a href="https://www.dafont.com/de/gotika.font" target="_blank">Test and download on <b>dafont.com</b></a></p>
                           <table class="table">
                             <tr>
                                 <td>Format</td>
                                 <td>TTF</td>
+                            </tr>
+                            <tr>
+                              <td>OpenType features</td>
+                              <td>—</td>
                             </tr>
                             <tr>
                                 <td>License</td>
@@ -260,7 +430,6 @@
   
                       </div>
                     </div>
-                </article>
               </div>
             </div>
           </div>
